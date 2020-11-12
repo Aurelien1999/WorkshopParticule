@@ -69,7 +69,7 @@ void destroyFramebufferandWindow(int nbr_part, framebuffer_t **framebuffer, sfRe
 }
 int main()
 {
-    int done = 0;
+    int done = 1;
     sfVideoMode mode = {1600, 900, 32};
     sfRenderWindow *window;
     // array de framebuffer sprite et texture pour en avoir plusieurs
