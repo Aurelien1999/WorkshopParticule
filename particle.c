@@ -84,7 +84,7 @@ int main()
     int a = 2, b = 2, c = 0;
 
     // creation de l'objet window
-    window = sfRenderWindow_create(mode, "PARTICLE", sfFullscreen, NULL);
+    window = sfRenderWindow_create(mode, "PARTICLE", sfResize | sfClose, NULL);
     
     // creation textures et sprites et framebuffer
     for (int i = 0; i < nbr_part; i++) {
